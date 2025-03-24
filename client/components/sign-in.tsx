@@ -2,7 +2,7 @@ import { signIn } from "@/auth";
 
 export default function SignIn() {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex justify-center">
       <form
         action={async () => {
           "use server";
@@ -11,7 +11,7 @@ export default function SignIn() {
       >
         <button
           type="submit"
-          className="bg-cyan-600 px-5 py-2 rounded text-white hover:bg-cyan-500 hover:cursor-pointer text-sm"
+          className="bg-cyan-900 px-5 py-2 rounded-lg text-white hover:bg-cyan-700 hover:cursor-pointer text-sm"
         >
           Sign in
         </button>

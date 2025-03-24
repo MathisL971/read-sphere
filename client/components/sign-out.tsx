@@ -11,7 +11,7 @@ export default function SignOut() {
       >
         <button
           type="submit"
-          className="bg-red-600 px-5 py-2 rounded text-white hover:bg-red-500 hover:cursor-pointer text-sm"
+          className="bg-red-600 px-5 py-2 rounded-lg text-white hover:bg-red-500 hover:cursor-pointer text-sm"
         >
           Sign out
         </button>
